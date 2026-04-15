@@ -6,6 +6,7 @@
   min-height: calc(100dvh - 120px);
   padding: 4rem 8%;
   color: #ffffff;
+  transition: all 0.2s ease-in-out;
 }
 
 #info-card {
