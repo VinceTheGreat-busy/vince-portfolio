@@ -101,7 +101,7 @@ header #theme-toggle:hover {
     right: -220px;
     width: 200px;
     height: calc(100dvh - 70px);
-    background: rgba(17, 24, 39, 0.95);
+    background: var(--primary);
     backdrop-filter: blur(12px);
     display: flex;
     flex-direction: column;
