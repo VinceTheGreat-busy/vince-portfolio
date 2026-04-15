@@ -66,9 +66,9 @@
 }
 
 #tech-container {
-    display: flex;
-    justify-content: space-around;
-    align-self: center;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
 }
 
 .tech-stack h2 {
@@ -120,4 +120,19 @@
   font-size: 0.9rem;
   letter-spacing: 2px;
   color: #facc15; /* gold */
+}
+
+@media (max-width: 748px) {
+  #tech-container {
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-start;
+    flex-direction: column;
+  }
+
+  .stack-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+  }
 }
